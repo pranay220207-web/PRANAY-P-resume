@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRANAY P | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<nav>
+  <h2>PRANAY P</h2>
+  <ul>
+    <li><a href="#about"><i class="fas fa-user icon"></i> About</a></li>
+    <li><a href="#skills"><i class="fas fa-code icon"></i> Skills</a></li>
+    <li><a href="#resume"><i class="fas fa-file-alt icon"></i> Resume</a></li>
+    <li><a href="#contact"><i class="fas fa-envelope icon"></i> Contact</a></li>
+  </ul>
+</nav>
+
+<header>
+  <h1>AI ENGINEER (Aspiring)</h1>
+  <p>BSc AIML | Kristu Jayanti University</p>
+</header>
+
+<section id="about">
+  <img src="images/photoo.jpg" class="profile-pic">
+  <div>
+    <h2>About Me</h2>
+    <p>
+      My name is <b>PRANAY P</b>. I am pursuing BSC AIML and aiming to become a 
+      <b>AI ENGINEER</b>.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <span><i class="fas fa-code icon"></i> C Programming</span>
+    <span><i class="fab fa-python icon"></i> Python</span>
+    <span><i class="fas fa-database icon"></i> MongoDB</span>
+    <span><i class="fab fa-node-js icon"></i> Node.js</span>
+  </div>
+</section>
+
+<section id="resume">
+  <h2>Resume</h2>
+  <a href="resume.pdf" download class="resume-btn">
+    <i class="fas fa-download icon"></i> Download Resume
+  </a>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+  <h2>Get In Touch</h2>
+  
+  <!-- Contact Info -->
+  <div style="margin-bottom: 2rem;">
+    <p>
+      <i class="fas fa-map-marker-alt" style="color: #2563eb; margin-right: 8px;"></i>
+      <strong>Location:</strong> INDIA
+    </p>
+    <p>
+      <i class="fas fa-phone" style="color: #2563eb; margin-right: 8px;"></i>
+      <strong>Phone:</strong>
+      <a href="tel:9380984048">+91 9380984048</a>
+    </p>
+    <p>
+      <i class="fab fa-github" style="color: #2563eb; margin-right: 8px;"></i>
+      <strong>GitHub:</strong>
+      <a href="https://github.com/pranay220207-web" target="_blank">github.com/pranay220207-web</a>
+    </p>
+    <p>
+      <i class="fas fa-envelope" style="color: #2563eb; margin-right: 8px;"></i>
+      <strong>Email:</strong>
+      <a href="mailto:25aimb63@kristujayanti.com">25aimb63@kristujayanti.com</a>
+    </p>
+  </div>
+
+  <!-- ✅ FIXED FORM -->
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    
+    <input type="email" id="email" placeholder="Your Email" required>
+    
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    
+    <button type="submit" id="submitBtn">
+      <span>Send Message</span>
+      <i class="fas fa-paper-plane icon"></i>
+    </button>
+  </form>
+
+  <!-- ✅ STATUS -->
+  <div id="status"></div>
+
+</section>
+
+<footer>
+  <p>© 2026 PRANAY P</p>
+</footer>
+
+<!-- ✅ LINK SCRIPT (VERY IMPORTANT) -->
+<script src="script.js"></script>
+
+</body>
+</html>
